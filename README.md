@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @nik-yakubin
 - 👀 I’m interested in coding
-- 🌱 I’m currently learning Python and hope to learn JS thanks to RS School
+- 🌱 I’m currently learning Python
 - 📫 How to reach me nik_yakubin@mail.ru
 
 <!---
