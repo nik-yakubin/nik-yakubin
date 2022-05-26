@@ -39,6 +39,7 @@ print(count)
 print('Сегодня дежурит', hotel_team[2])
 
 #range - диапазон, кроме последнего числа
+#reversed - обратный отсчёт
 for i in reversed(range(1, 13)):
     print(i, 'бомм!')
 
