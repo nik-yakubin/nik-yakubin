@@ -37,3 +37,9 @@ print(hotel_team[10])
 count = len(hotel_team)
 print(count)
 print('Сегодня дежурит', hotel_team[2])
+
+#range - диапазон, кроме последнего числа
+for i in reversed(range(1, 13)):
+    print(i, 'бомм!')
+
+print('C новым годом!')
