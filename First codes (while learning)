@@ -25,8 +25,15 @@ y = 7
 d = "7.3"
 print(float(x) * y * float(d))
 print(int(float(x)) * y * int(float(d)))
-x = "3.5"
-y = 7
-d = "7.3"
 #float() = для преобразования строки в десятичную дробь
 #int() = для преобразования в целое число (после запятой ничего не округляется, а отбрасывается)
+
+#про списки:
+sales = ['Женя', 'Наташа', 'Лена']
+housekeeping = ['Нина Васильевна', 'Лена', 'Альбина', 'Зухра']
+reception = ['Юля', 'Алина', 'Даша', 'Сергей']
+hotel_team = sales + housekeeping + reception
+print(hotel_team[10])
+count = len(hotel_team)
+print(count)
+print('Сегодня дежурит', hotel_team[2])
