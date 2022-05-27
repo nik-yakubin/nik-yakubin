@@ -52,3 +52,16 @@ if total > 45000:
     print('Молодец')
 else:
     print('Маловато будет')
+
+#составные логические выражения
+milk = False
+eggs = True
+if milk and eggs:
+    print('Яичница')
+elif milk or eggs:
+    if milk:
+        print('Молоко попью')
+    else:
+        print('Надо купить молоко')
+else:
+    print('Надо купить продукты')
