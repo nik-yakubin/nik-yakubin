@@ -88,9 +88,10 @@ for friends_count in range(0,21):
 #счётчики
 flat = [5, 25, 38, 43, 25]
 room_size = 25
-
 count = 0
 for room in flat:
     if room == room_size:
         count=count+1
 print('В квартире', count, 'комнаты площадью', room_size)
+
+#"кол-во вхождений" означает сколько раз определённое значение встречается в списке или другом наборе данных
