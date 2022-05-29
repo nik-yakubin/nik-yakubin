@@ -84,3 +84,13 @@ hello('Максим')
         print('Ого, сколько у тебя друзей! Целых', friends_count)
 for friends_count in range(0,21):
     print_friends_count(friends_count)
+    
+#счётчики
+flat = [5, 25, 38, 43, 25]
+room_size = 25
+
+count = 0
+for room in flat:
+    if room == room_size:
+        count=count+1
+print('В квартире', count, 'комнаты площадью', room_size)
