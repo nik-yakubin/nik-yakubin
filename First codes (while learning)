@@ -99,8 +99,7 @@ print('В квартире', count, 'комнаты площадью', room_size
 #множества - set; нет повторяющихся элементов и нет определённого порядка
 letters_list = ['a','d','d','e','s','a','a','f']
 
-# Преобразуем список songs_list в сет
-# и запишем этот сет в переменную unique_songs:
+# Преобразуем список songs_list в set
+# и запишем этот set в переменную unique_songs:
 unique_letters = set(letters_list)
-
 print(unique_letters)
