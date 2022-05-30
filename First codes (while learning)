@@ -103,3 +103,24 @@ letters_list = ['a','d','d','e','s','a','a','f']
 # и запишем этот set в переменную unique_songs:
 unique_letters = set(letters_list)
 print(unique_letters)
+
+#добавить элемент в множество - add()
+объект.метод(аргумент)
+playlist = {
+    'Venus',
+    'Yesterday',
+    'Fireball',
+    'Time',
+    'Poison'
+}
+playlist.add('Thunderstruck')
+print(playlist)
+
+#объединить множества - union()
+playlist_1 = {'Три белых коня', 'Happy new year', 'Снежинка'}
+playlist_2 = {'Last christmas', 'Снежинка', 'Happy new year'}
+playlist_3 = playlist_1.union(playlist_2)
+print(playlist_3)
+
+#поиск различий в множествах - difference()
+#поиск одинаковых элементов - intersection()
