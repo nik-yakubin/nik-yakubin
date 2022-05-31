@@ -130,3 +130,28 @@ print(playlist_3)
 #метод update() - объединение нескольких словарей
 #метод items() - извлекает и ключ и значение из словаря 
 #keys(), values()
+
+#if ... in ... (ищет лишь по ключам)
+#если нужно убедиться, что элемента нет в коллекции, то поможет not:
+#if ... not in ...
+car_list = ['BMW', 'Mercedes', 'Audi']
+car_set = {'BMW', 'Mercedes', 'Audi'}
+car_dict = {
+    'BMW': 'fast',
+    'Mercedes': 'cool',
+    'Audi': 'expensive'
+}
+if 'Audi' in car_list:
+    print('В первом есть!')
+else:
+    print('Ищем дальше')
+if 'BMW' in car_set:
+    print('Во втором есть!')
+else:
+    print('Ищем дальше')
+if 'cool' not in car_dict:
+    print('Нашлось!')
+    
+#метод append() - добавить элемент в список
+else:
+    print('Ищем дальше')
