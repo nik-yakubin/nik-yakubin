@@ -166,7 +166,7 @@ new_list = milk_str.split('о')
 print(new_list)
 ['м', 'л', 'к', 'в', 'з'] 
 
-#join() - из списка делает сроку
+#join() - из коллекции делает сроку
 words_list = ['раз', 'два', 'три', 'четыре', 'пять']
 new_string = '-'.join(words_list)
 print(new_string)
