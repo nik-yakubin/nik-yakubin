@@ -187,4 +187,4 @@ print(square_root)
 #datetime - и тип данных, и библиотека
 #import datetime as dt
 #utcnow() - у любой переменной типа данных datetime можно вызвать данный метод
-#timedelta() - тип данных
+#timedelta() - тип данных, в котором можно сохранить любой промежуток времени (в аргументах этой функции можно указывать hours, days, minutes, seconds)
