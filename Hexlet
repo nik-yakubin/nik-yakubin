@@ -47,3 +47,8 @@ max(1, 5, 10) - возвращает макс. значение, т.е. 10
 (ex. len()) и недетерминированная (ex. random())
 Имена функций должны содержать глаголы, так как выполняют действие: «построить что-то», «нарисовать что-то», «открыть что-то» 
 После return никакой код не выполняется
+
+def get_hidden_card(card_number, symbol_number = 4):
+    card_number = card_number[12:17]
+    stars_number = '*' * symbol_number
+    return f'{stars_number}{card_number}'
