@@ -52,3 +52,6 @@ def get_hidden_card(card_number, symbol_number = 4):
     card_number = card_number[12:17]
     stars_number = '*' * symbol_number
     return f'{stars_number}{card_number}'
+
+функция-предикат (функция-вопрос) Предикат отвечает на утвердительный вопрос «да» или «нет», возвращая значение типа bool (True/False)
+ex. is_empty(), has_numbers()
