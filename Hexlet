@@ -57,3 +57,7 @@ def get_hidden_card(card_number, symbol_number = 4):
 ex. is_empty(), has_numbers()
 
 Преобразуются в False значения: 0, 0.0, None, ''
+
+Тернарный оператор - конструкция, которая по своему действию аналогична конструкции if-else, но при этом является выражением (требует 3 операнда)
+def abs(number):
+    return number if number >= 0 else -number
