@@ -69,3 +69,17 @@ def abs(number):
 сложение и вычитание - 0, у конкатенации - ''
 
 Ошибки бывают: синтаксические, ошибки программирования и логические
+
+Задача: является ли слово палиндромом
+def first_word(word):
+    return word
+        
+def reversed_word(word):
+    return word[::-1]
+        
+def is_palindrome(word):
+    if first_word(word) == reversed_word(word):
+        return True
+        
+    else:
+        return False
