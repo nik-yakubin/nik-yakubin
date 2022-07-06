@@ -85,3 +85,4 @@ def is_palindrome(word):
         return False
 
 Модуль - это файл с кодом. К содержимому модуля можно обращаться "через точку" (ex. greeting.say_hi()) <= модуль - greeting, функция - say_hi()
+1. import greeting; 2. from greeting import say_hi
